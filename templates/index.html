@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <ul>
+    {% for number in numbers %}
+      <li>{{ number|e  }} bottles are lying on the table.</li>
+    {% else %}
+      <li>There are no bottles on the table.<li>
+    {% endfor %}
+    <ul>
+  </body>
+</html>
