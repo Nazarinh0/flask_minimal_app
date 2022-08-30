@@ -25,6 +25,7 @@ def argument():
         arg=request.args.lists(),
         )
 
+
 @app.route('/json')
 def json():
     return dict(request.args.lists())
