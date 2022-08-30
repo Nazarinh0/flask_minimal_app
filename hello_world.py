@@ -29,3 +29,11 @@ def argument():
 @app.route('/json')
 def json():
     return dict(request.args.lists())
+
+
+@app.route('/error')
+def error():
+    a = 10
+    b = zero
+    return a*b
+
