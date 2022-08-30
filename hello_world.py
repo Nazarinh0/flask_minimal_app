@@ -21,8 +21,6 @@ def index():
 @app.route('/args')
 def argument():
     return render_template(
-            'args.html',
-            arg=request.args.lists(),
-            )
-
-
+        'args.html',
+        arg=request.args.lists(),
+        )
