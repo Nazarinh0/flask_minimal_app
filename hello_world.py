@@ -36,6 +36,7 @@ def error():
     """This function purpose is to raise an error,
     so i can practice with werkzeug error handling interface
     """
+
     a = 10
     b = zero
     return a*b
